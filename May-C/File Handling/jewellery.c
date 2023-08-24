@@ -7,7 +7,7 @@ struct jewellery
     char item[20];
     float weight;
 };
-
+printf("i will try to solve");
 struct jewellery jew;
 void Insert();
 void View();
