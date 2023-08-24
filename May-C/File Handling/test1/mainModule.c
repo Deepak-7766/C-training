@@ -21,6 +21,7 @@ void main()
 
             printf("\nEnter how many items you want to add: ");
             scanf("%d", &size);
+            p1=(struct product*)malloc(sizeof(struct product)*size);
             for (int i = 0; i < size; i++)
             {
                 printf("\nEnter item name, id and weight: ");
